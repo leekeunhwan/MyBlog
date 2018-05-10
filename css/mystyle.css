@@ -1,0 +1,64 @@
+/* 전체영역을 통틀어서 정의 */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumpenscript.css");
+
+* {
+    font-family: 'Nanum Pen Script', serif;
+}
+
+a {
+    color: #000080;
+    text-decoration: none;
+}
+
+a:hover {                
+    color: #000080;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 내비게이션 영역 */
+
+.navbar-default .navbar-brand { /*네비게이션 제목 색상*/
+    color: gray;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus { /*마우스를 올렸을때 효과*/
+    background-color: transparent;
+    color: #000080; 
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus, {
+    color: #000080;
+}
+
+.navbar-default .navbar-nav > .open > a
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus, {
+    color: #000080;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color : gray;
+}
+
+.jumbotron {
+    background-image: url("../myblog/images/bg1.jpg");
+    background-size: cover;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color : #bbbbbb;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #000080;
+    }
+}

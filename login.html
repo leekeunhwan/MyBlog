@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1"/>
+    <title>📖My Share Diary📝</title>
+    <link rel="stylesheet" href="../myblog/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../myblog/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../myblog/css/login.css">
+    <link rel="stylesheet" href="../myblog/css/mystyle.css">
+    <script src="../jquery-3.2.1.js"></script>
+    <script src="../myblog/js/bootstrap.min.js"></script>
+    <script src="../myblog/js/login.js"></script>    
+    <script src="../myblog/myblog.js"></script>
+  </head>
+  <body>
+    <style type="text/css">
+    body {
+    background: url("../myblog/images/login.jpg") fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    }
+    </style>  
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../myblog/main.html">My Share Diary</a> 
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../myblog/introduce.html">소개<span class="sr-only"></span></a></li>
+                    <li class="active"><a href="../myblog/learnToUse.html">사용방법</a></li>
+                    <li class="dropdown"> 
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">일기장<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../myblog/write.html">일기 쓰기</a></li>
+                            <li><a href="../myblog/myDiary.html">내가 쓴 일기보기</a></li>
+                            <li><a href="../myblog/watchOtherDiary.html">다른사람 일기장 구경하기</a></li>
+                        </ul>     
+                    </li>
+                    <li class="dropdown"> 
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">알려드립니다<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../myblog/notice.html">공지사항</a></li>
+                                <li><a href="../myblog/event.html">이벤트</a></li>
+                            </ul>     
+                        </li>     
+                    <li class="dropdown"> 
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">고객센터<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../myblog/Faq.html">F&amp;Q</a></li>
+                                <li><a href="../myblog/privateQuery.html">1:1 문의하기</a></li>
+                            </ul>     
+                        </li>                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../myblog/login.html">로그인</a></li>
+                            <li><a href="../myblog/join.html">회원가입</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="내용을 입력해주세요." role="search"/>
+                    </div>
+                    <button type="submit" class="btn btn-default">검색</button>
+                </form>
+            </div>
+        </div>
+    </nav>    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pr-wrap">
+                    <div class="pass-reset">
+                        <label>
+                            Enter the email you signed up with 
+                        </label>
+                        <input type="email" placeholder="Email" />
+                        <input type="submit" value="submit" class="pass-reset-submit btn btn-default btn-sm" />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <p class="form-title">
+                        Sign In
+                    </p>
+                    <form class="login">
+                    <input type="text" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <input type="submit" value="Sign In" class="btn btn-default btn-sm" />
+                    <div class="remember-forget">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" />
+                                        아이디 기억하기
+                                    </label>
+                                </div>
+                            </div>
+                            <label>
+                            <p>    
+                            <div c lass="col-md-6 forget-pass-content" style="text-align:right;">
+                                <a href="#" class="forget-pass">Forget Password</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>      
